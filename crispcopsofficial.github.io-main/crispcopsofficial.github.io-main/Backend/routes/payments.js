@@ -20,7 +20,7 @@ router.post('/add',(req,res) =>{
             });
         }
         return res.status(200).json({
-            success:"Payment details saved succesfully"
+            success:"Payment details save succesfully"
         })
     })
 })
